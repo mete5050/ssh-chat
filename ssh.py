@@ -1,4 +1,3 @@
-#ilk olarak /home/ konumunda ssh adlı bir dizin oluşturun.Sonra bu dizine ssh.py yi kaydedin.Bu python3 ssh.py komutu ile çalıştırailirsiniz
 import os
 normal = '\033[0m'
 mor= '\033[35m'
@@ -22,22 +21,22 @@ def check():
     print(os.system("sudo ls /home/ssh"))
 def remove():
     os.system("sudo rm download")
+    os.system("sudo rm message.txt")
     print(os.system("ls"))
 def connect():
     os.system("ssh "+ad+"@"+ip)
 print(pyesil)
 while True:
     grs = input(sari + ">>> "+normal)
-    if(grs == "read"):
+    if(grs == "oku"):
         read()
         remove()
-    if(grs == "send"):
+    if(grs == "yaz"):
+        remove
         send()
-    if(grs == "check"):
+    if(grs == "kontrol"):
         check()
-    if(grs == "connect"):
+    if(grs == "bağlan"):
         connect()
-    if(grs == "rm"):
-        remove()
-    if(grs == "rmv"):
-        remove()
+    if(grs == "sil"):
+        renmove()
