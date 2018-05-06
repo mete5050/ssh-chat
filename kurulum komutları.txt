@@ -7,3 +7,5 @@ artık /home dizininin altında ssh dizini oluşturuldu
 açılan sayfaya ssh.py github kodunu kopyalıyoruz
 4-   ctrl + x yapıp dosyayı kaydedip çıkıyoruz
 5-   python3 ssh.py komutunu çalıştırıyoruz
+kısacası /home/ssh/ssh.py diye bir şey oluşturun , sonra ssh.py dosyasına githubdaki ssh.py deki kodları yapıştırın
+Not:Sadece ortak bir ağda çalışır.Bu program global değil
