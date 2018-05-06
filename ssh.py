@@ -1,3 +1,4 @@
+#METE EKER
 import os
 normal = '\033[0m'
 mor= '\033[35m'
