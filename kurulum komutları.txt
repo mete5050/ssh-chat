@@ -1,0 +1,9 @@
+ilk olarak terminali açın
+ondan sonra 
+1-  cd ..
+2-  sudo mkdir ssh
+artık /home dizininin altında ssh dizini oluşturuldu
+3- sudo nano ssh.py
+açılan sayfaya ssh.py github kodunu kopyalıyoruz
+4-   ctrl + x yapıp dosyayı kaydedip çıkıyoruz
+5-   python3 ssh.py komutunu çalıştırıyoruz
