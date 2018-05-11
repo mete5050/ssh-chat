@@ -1,3 +1,4 @@
+Kullanım için açıklamalı video :https://youtu.be/4oYFe1yOQC0
 Bu program linux içinh azırlanmıştır
 ilk olarak terminali açın
 ondan sonra 
